@@ -24,5 +24,16 @@ while info.strip().upper() != 'DONE':
 
     
     info = input()
+print('\n=== DIRECTORY SUMMARY ===')
+print(f'Total contacts processed: {count}')
+
+print('=== FORMATTED FOR PRINTING ===')
+for entry in directory:
+    name, phone, email = entry
+    parts = name.split()
+    last = parts[-1]
+    first = ' '.join(parts[:-1])
+    print(f'{last}, {first:<25}{phone:<20}{email}')
+
 
 
