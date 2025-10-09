@@ -44,3 +44,15 @@ STRING METHODS USED
 .isalpha() - Identify state abbreviations 
 
 F-string formatting with alignment for precise output e.g. (<25)
+
+
+PROGRAM FEATURES
+
+.title() To capiltalize the first letters and .strip() to remove extra spaces.
+
+Extracts only digits using .isdigit()
+
+Converts emails to lowercase with .lower()
+
+Displays contacts in a well-aligned format using f-string width specifiers (< 25 <30)
+
