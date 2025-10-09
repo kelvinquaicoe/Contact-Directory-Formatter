@@ -1,6 +1,6 @@
 # -comp163-assignment-6
 assignment-6
-Project Overview
+PROJECT OVERVIEW
 
 Inconsistent contact data is cleaned, standardized, and formatted into a refined layout in this project.
 It demonstrates proper output alignment and fluent use of Python string techniques.
@@ -20,7 +20,7 @@ Format addresses with proper state abbreviations
 Display a neatly formatted contact directory and summary
 
 
-String Methods Used 
+STRING METHODS USED
 .split('|') - Parse contact fields 
 
 .split() - Separate name parts and address components 
