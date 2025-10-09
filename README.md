@@ -1,5 +1,25 @@
 # -comp163-assignment-6
 assignment-6
+Project Overview
+
+Inconsistent contact data is cleaned, standardized, and formatted into a refined layout in this project.
+It demonstrates proper output alignment and fluent use of Python string techniques.
+
+Users can input multiple contacts (in the format name|phone|email|address), and the program will:
+
+Parse and clean each field
+
+Correct capitalization and spacing
+
+Standardize phone numbers
+
+Correct email case
+
+Format addresses with proper state abbreviations
+
+Display a neatly formatted contact directory and summary
+
+
 String Methods Used 
 .split('|') - Parse contact fields 
 
