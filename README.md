@@ -1,7 +1,7 @@
-# -comp163-assignment-6
+# kkquaicoe]_assignment_6.py  
 assignment-6
 
-PROJECT OVERVIEW
+#PROJECT OVERVIEW
 
 Inconsistent contact data is cleaned, standardized, and formatted into a refined layout in this project.
 It demonstrates proper output alignment and fluent use of Python string techniques.
@@ -21,7 +21,7 @@ Format addresses with proper state abbreviations
 Display a neatly formatted contact directory and summary
 
 
-STRING METHODS USED
+#STRING METHODS USED
 
 .split('|') - Parse contact fields 
 
@@ -46,7 +46,7 @@ STRING METHODS USED
 F-string formatting with alignment for precise output e.g. (<25)
 
 
-PROGRAM FEATURES
+#PROGRAM FEATURES
 
 .title() To capiltalize the first letters and .strip() to remove extra spaces.
 
@@ -60,7 +60,7 @@ Displays contacts in a well-aligned format using f-string width specifiers (< 25
 
 
 
-EXAMPLE RUN
+#EXAMPLE RUN
 
 Input:
 
