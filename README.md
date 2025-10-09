@@ -56,3 +56,37 @@ Converts emails to lowercase with .lower()
 
 Displays contacts in a well-aligned format using f-string width specifiers (< 25 <30)
 
+
+
+
+
+EXAMPLE RUN
+
+Input:
+
+john doe|5551234567|JOHN@EMAIL.COM|123 main street, raleigh nc 27601
+jane smith|919-555-1234|jane.smith@gmail.com|456 oak ave, durham nc 27705
+DONE
+
+
+Output:
+
+=== CONTACT DIRECTORY ===
+
+CONTACT 1:
+Name:     John Doe
+Phone:    (555) 123-4567
+Email:    john@email.com
+Address:  123 Main Street, Raleigh NC 27601
+
+CONTACT 2:
+Name:     Jane Smith
+Phone:    (919) 555-1234
+Email:    jane.smith@gmail.com
+Address:  456 Oak Ave, Durham NC 27705
+
+=== DIRECTORY SUMMARY ===
+Total contacts processed: 2
+=== FORMATTED FOR PRINTING ===
+Doe, John                     (555) 123-4567      john@email.com
+Smith, Jane                   (919) 555-1234      jane.smith@gmail.com
