@@ -1,5 +1,6 @@
 # -comp163-assignment-6
 assignment-6
+
 PROJECT OVERVIEW
 
 Inconsistent contact data is cleaned, standardized, and formatted into a refined layout in this project.
@@ -21,6 +22,7 @@ Display a neatly formatted contact directory and summary
 
 
 STRING METHODS USED
+
 .split('|') - Parse contact fields 
 
 .split() - Separate name parts and address components 
