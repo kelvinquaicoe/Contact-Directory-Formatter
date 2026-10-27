@@ -1,104 +1,39 @@
-# kkquaicoe]_assignment_6.py  
-assignment-6
+# Contact Directory Formatter
 
-##PROJECT OVERVIEW
+A command-line Python program that cleans, validates, and formats contact details.
 
-Inconsistent contact data is cleaned, standardized, and formatted into a refined layout in this project.
-It demonstrates proper output alignment and fluent use of Python string techniques.
+## Features
 
-Users can input multiple contacts (in the format name|phone|email|address), and the program will:
+- Accepts contacts in `name|phone|email|address` format.
+- Normalizes name capitalization and email case.
+- Formats 10-digit phone numbers.
+- Checks that each entry has four fields and that required fields are present.
+- Reports invalid entries without stopping the program.
+- Prints a contact directory and a print-friendly summary.
 
-Parse and clean each field
+## Requirements
 
-Correct capitalization and spacing
+- Python 3.8 or newer
+- No third-party packages
 
-Standardize phone numbers
+## Run
 
-Correct email case
+```bash
+python contact_directory.py
+```
 
-Format addresses with proper state abbreviations
+Example input:
 
-Display a neatly formatted contact directory and summary
-
-
-##STRING METHODS USED
-
-.split('|') - Parse contact fields 
-
-.split() - Separate name parts and address components 
-
-.join() - Reassemble cleaned address components 
-
-.strip() - Remove extra whitespace 
-
-.title() - Proper case for names and addresses 
-
-.upper() - Standardize state abbreviations 
-
-.lower() - Standardize email addresses 
-
-.replace() - Clean phone number formatting and remove punctuation 
-
-.isdigit() - Extract phone number digits 
-
-.isalpha() - Identify state abbreviations 
-
-F-string formatting with alignment for precise output e.g. (<25)
-
-
-##PROGRAM FEATURES
-
-.title() To capiltalize the first letters and .strip() to remove extra spaces.
-
-Extracts only digits using .isdigit()
-
-Converts emails to lowercase with .lower()
-
-Displays contacts in a well-aligned format using f-string width specifiers (< 25 <30)
-
-
-
-
-
-##EXAMPLE RUN
-
-#Input:
-
+```text
 john doe|5551234567|JOHN@EMAIL.COM|123 main street, raleigh nc 27601
 jane smith|919-555-1234|jane.smith@gmail.com|456 oak ave, durham nc 27705
 DONE
+```
 
+## Concepts practiced
 
-#Output:
+String methods, splitting and joining, list and dictionary data structures, validation, exceptions, functions, and formatted output.
 
-=== CONTACT DIRECTORY ===
+## Development note
 
-CONTACT 1:
-
-Name:     John Doe
-
-Phone:    (555) 123-4567
-
-Email:    john@email.com
-
-Address:  123 Main Street, Raleigh NC 27601
-
-CONTACT 2:
-
-Name:     Jane Smith
-
-Phone:    (919) 555-1234
-
-Email:    jane.smith@gmail.com
-
-Address:  456 Oak Ave, Durham NC 27705
-
-=== DIRECTORY SUMMARY ===
-
-Total contacts processed: 2
-
-=== FORMATTED FOR PRINTING ===
-
-Doe, John                     (555) 123-4567      john@email.com
-
-Smith, Jane                   (919) 555-1234      jane.smith@gmail.com
+This project began as COMP 163 coursework and has been cleaned up as a learning project. Contact information entered is handled in memory only and is not saved to a file.
